@@ -16,8 +16,6 @@ dependencies {
 	implementation group: 'net.sf.supercsv', name: 'super-csv', version: '2.3.1'
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	testCompile ('org.junit.jupiter:junit-jupiter-engine:5.2.0')
-  	testCompile('org.mockito:mockito-junit-jupiter:2.23.0')
 }
 
 tasks.named('test') {
